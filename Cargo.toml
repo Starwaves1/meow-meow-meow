@@ -1,5 +1,5 @@
 [package]
-name = "meow-cli"
+name = "meow"
 version = "2.1.5"
 edition = "2021"
 authors = ["PixelSergey <sergey.ichtchenko@gmail.com>"]
