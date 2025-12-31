@@ -1,5 +1,5 @@
 # Meow
-
+This forked version adds only multiple meow functionality. meow meow = 2 meows
 
 Print ASCII cats to your terminal!
 
@@ -24,6 +24,8 @@ Options:
   -l, --literally      Are you literally this cat?
   -h, --help           Print help
   -V, --version        Print version
+  meow meow            prints 2x meows
+  meow meow meow       prints 3x meows
 ```
 
 ## Packaging shenanigans
