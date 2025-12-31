@@ -33,9 +33,12 @@ fn main() {
         .filter(|arg| arg.to_lowercase() == "meow")
         .count() as u16;
 
+    // Debug line: prints the raw arguments and meow count to stderr for troubleshooting
+    // eprintln!("Debug: meow_args = {:?}, meow_count = {}", args.meow_args, meow_count);
+
     // Determine the count: use meow count if any, otherwise use -c value or default to 1
     let count = if meow_count > 0 {
-        meow_count
+        meow_count + 1
     } else {
         args.count.unwrap_or(1)
     };

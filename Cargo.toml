@@ -1,6 +1,6 @@
 [package]
-name = "meow-cli"
-version = "2.1.5"
+name = "meow-meow"
+version = "2.1.5.4"
 edition = "2021"
 authors = ["PixelSergey <sergey.ichtchenko@gmail.com>"]
 license = "MIT"
@@ -12,6 +12,10 @@ keywords = ["cli", "terminal", "utility", "text", "game"]
 categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "meow"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.45", features = ["derive"] }

@@ -6,7 +6,8 @@
       "Bash(./target/release/meow-cli meow:*)",
       "Bash(./target/release/meow-cli:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(cargo install:*)"
     ]
   }
 }
